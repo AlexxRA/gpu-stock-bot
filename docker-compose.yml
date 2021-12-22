@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  gpu-stock-checker:
+    container_name: gpu-stock-checker
+    build:
+      context: .
+    network_mode: host
+    restart: always
